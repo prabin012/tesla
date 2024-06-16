@@ -23,16 +23,24 @@
   .navitemss{
     width: 100%;
     height: auto;
+    display: flex;
+    justify-content: flex-end;
     
   }
   .navuperbdylist{
     color: white;
     font-size: 10px;
   }
+  .logoImage{
+    width: 100px;
+    height: 100px;
+  }
   .navupperbdy{
-    width: 100%;
+    width: 50%;
     flex-direction: column;
-    align-items: center;
+    /* align-items: right; */
+    justify-content: center;
+    border-bottom: none;
     text-align: left;
   }
    .logo{
@@ -110,7 +118,7 @@
      color: wheat;
      display: flex;
      position: absolute;
-     top: 30px;
+     top: 60px;
      right: -15px;
      cursor: pointer;
      font-size: 28px;
@@ -176,14 +184,15 @@
     height: auto;
     /* margin-top: -100px; */
     border-radius: 0;
+    padding: 20px;
  }
  .about-col-{
     width: 100%;
-    margin-left: 45px;
+    /* margin-left: 45px; */
     /* margin: 0; */
  }
-.about-col-1 img {
-  width: 70%;
+.about-col- img {
+  width: 100%;
   height: 100%;
    
 }
@@ -208,8 +217,9 @@
     padding-bottom: 100px;
    }
    .about-col-2 h1 {
+    width: 100%;
     text-align: left;
-    font-size: 2.3rem;
+    font-size: 2.1rem;
     margin-left: 0rem;
   
 }
@@ -278,7 +288,7 @@
     padding: 0;
 }
 .EducationHeader{
-    padding: 30px;
+    padding: 10px;
     margin: 0;
     width: 90%;
         left: 20px;
@@ -356,15 +366,18 @@ flex-direction: column;
     display:flex;
     justify-content: center;
     align-items: center;
-    height: 60vh;
+    height: 75vh;
     padding-bottom: -50PX;
    }
    .container-14 {
     position: relative;
-    width: 80%;
+    width: 100%;
     height: 40vh;
     border-radius: 100%;
     /* border: 5px solid #ff9901; */
+}
+.conct{
+    font-size: 15px;
 }
 .p1 {
     background-color: #ff9901;
@@ -451,8 +464,14 @@ flex-direction: column;
     font-size: 17px;
     
   }
+  .aprachImages{
+    width: 30px;
+  }
   .len{
-    width: 300px;
+    width: 210px;
+  }
+  p{
+    margin: 0;
   }
   .contect-1 h1 {
     padding-top: 20px;
